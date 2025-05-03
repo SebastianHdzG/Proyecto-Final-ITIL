@@ -39,6 +39,7 @@ body {
      line-height: 1.80857;
      font-weight: normal;
      overflow-x: hidden;
+     text-align: justify;
 }
 
 a {
@@ -127,7 +128,7 @@ p {
      margin: 20px;
      font-weight: 400;
      font-size: 15px;
-     line-height: 24px;
+     line-height: 28px;
 }
 
 a {
@@ -285,7 +286,7 @@ a {
 
 .service_text{
 	color: #050000;
-	font-size: 22pt;
+	font-size: 25pt;
 	text-align: center;	
 	border-bottom: 1px solid #000;
 	width: 22%;
