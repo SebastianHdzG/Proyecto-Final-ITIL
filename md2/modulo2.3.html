@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<!-- basic -->
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!-- mobile metas -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+<!-- site metas -->
+<title>ITIL 4 - Relaciones y Riesgos</title>
+<meta name="keywords" content="ITIL, relaciones de servicio, riesgos, costos, gestión">
+<meta name="description" content="Gestión de relaciones de servicio y análisis de riesgos/costos en ITIL 4">
+<meta name="author" content="">	
+<!-- bootstrap css -->
+<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+<!-- style css -->
+<link rel="stylesheet" type="text/css" href="../css/style.css">
+<!-- Responsive-->
+<link rel="stylesheet" href="css/responsive.css">
+<!-- fevicon -->
+<link rel="icon" href="IMG/fevicon.png" type="image/gif" />
+<!-- Scrollbar Custom CSS -->
+<link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+<!-- Tweaks for older IEs-->
+<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+<!-- owl stylesheets --> 
+<link rel="stylesheet" href="css/owl.carousel.min.css">
+<link rel="stylesheet" href="css/owl.theme.default.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+</head>
+<style>
+    .img-fluid {
+      max-width: 100%;
+      height: auto;
+    }
+    .rounded {
+      border-radius: 15px;
+    }
+    .card {
+      background-color: #072833;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+    }
+    .card-title {
+      font-weight: bold;
+      color: #007bff;
+    }
+    .card img {
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .card img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 6px 18px rgba(0,0,0,0.3);
+    }
+	
+    .img-fluid { max-width: 100%; height: auto; }
+    .rounded { border-radius: 15px; }
+    .card { background-color: #f8f9fa; border-radius: 15px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); padding: 20px; }
+    .card-title { font-weight: bold; color: #007bff; }
+    .card img { transition: transform 0.3s ease, box-shadow 0.3s ease; }
+    .card img:hover { transform: scale(1.05); box-shadow: 0 6px 18px rgba(0,0,0,0.3); }
+
+  </style>
+
+<body>
+	<div class="header_main">
+		<div class="container">
+			<div class="logo"><a href="index.html"><img src="../images/ITILlogo.png" alt="ITIL 4" width="250"></a></div>
+		</div>
+	</div>
+	</div>
+	<div class="header">
+		<div class="container">
+        <!--  header inner -->
+            <div class="col-sm-12">
+                 <div class="menu-area">
+					<nav class="navbar navbar-expand-lg ">
+                        <!-- <a class="navbar-brand" href="#">Menu</a> -->
+<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                       <i class="fa fa-bars"></i>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav mr-auto">
+                                <li class="nav-item">
+                                <a class="nav-link" href="../index.html">Home</a></li>
+                               <li class="nav-item">
+                                <li class="nav-item dropdown">
+									<a class="nav-link dropdown-toggle" href="#" id="temasDropdown" role="button" data-bs-toggle="dropdown">
+                                        <i class=></i> Modulo 2
+                                    </a>
+									<ul class="dropdown-menu dropdown-menu-end">
+										<li><h6 class="dropdown-header">Módulo 2 - Gestión de Servicios</h6></li>
+										<li><hr class="dropdown-divider"></li>
+										<li>
+											<a class="dropdown-item" href="modulo2.html">
+												<i class="" aria-hidden="true"></i>Valor y Co-Creación
+											</a>
+										</li>
+										<li>
+											<a class="dropdown-item" href="modulo2.1.html">
+												<i class="" aria-hidden="true"></i>Roles y Partes Interesadas
+											</a>
+										</li>
+										<li>
+											<a class="dropdown-item" href="modulo2.2.html">
+												<i class="" aria-hidden="true"></i>Productos y Servicios
+											</a>
+										</li>
+										<li>
+											<a class="dropdown-item" href="modulo2.3.html">
+												<i class="" aria-hidden="true"></i>Relaciones y Riesgos
+											</a>
+										</li>
+									</ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="temasDropdown" role="button" data-bs-toggle="dropdown">
+                                        <i class=></i> Modulo 3
+                                    </a>
+                                    <ul class="dropdown-menu dropdown-menu-end">
+                                        <li><h6 class="dropdown-header">Modulo 3</h6></li>
+                                        <li><a class="dropdown-item" href="gobernanza.html"><i class=></i>Tema1</a></li>
+                                        <li><a class="dropdown-item" href="itsm.html"><i class=""></i>Tema2</a></li>
+                                        <li><a class="dropdown-item" href="itil.html"><i class="fas fa-book-open me-2"></i>Tema3</a></li>
+                                        <li><a class="dropdown-item" href="cobit.html"><i class="fas fa-project-diagram me-2"></i>Tema4</a></li>
+                                      </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="temasDropdown" role="button" data-bs-toggle="dropdown">
+                                        <i class=></i> Modulo 4
+                                    </a>
+                                    <ul class="dropdown-menu dropdown-menu-end">
+                                        <li><h6 class="dropdown-header">Modulo 4</h6></li>
+                                        <li><a class="dropdown-item" href="gobernanza.html"><i class=></i>Tema1</a></li>
+                                        <li><a class="dropdown-item" href="itsm.html"><i class=""></i>Tema2</a></li>
+                                        <li><a class="dropdown-item" href="itil.html"><i class="fas fa-book-open me-2"></i>Tema3</a></li>
+                                        <li><a class="dropdown-item" href="cobit.html"><i class="fas fa-project-diagram me-2"></i>Tema4</a></li>
+                                      </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="temasDropdown" role="button" data-bs-toggle="dropdown">
+                                        <i class=></i> Modulo 5
+                                    </a>
+                                    <ul class="dropdown-menu dropdown-menu-end">
+                                        <li><h6 class="dropdown-header">Modulo 5</h6></li>
+                                        <li><a class="dropdown-item" href="gobernanza.html"><i class=></i>Tema1</a></li>
+                                        <li><a class="dropdown-item" href="itsm.html"><i class=""></i>Tema2</a></li>
+                                        <li><a class="dropdown-item" href="itil.html"><i class="fas fa-book-open me-2"></i>Tema3</a></li>
+                                        <li><a class="dropdown-item" href="cobit.html"><i class="fas fa-project-diagram me-2"></i>Tema4</a></li>
+                                      </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="temasDropdown" role="button" data-bs-toggle="dropdown">
+                                        <i class=></i> Modulo 6
+                                    </a>
+                                    <ul class="dropdown-menu dropdown-menu-end">
+                                        <li><h6 class="dropdown-header">Modulo 6</h6></li>
+                                        <li><a class="dropdown-item" href="gobernanza.html"><i class=></i>Tema1</a></li>
+                                        <li><a class="dropdown-item" href="itsm.html"><i class=""></i>Tema2</a></li>
+                                        <li><a class="dropdown-item" href="itil.html"><i class="fas fa-book-open me-2"></i>Tema3</a></li>
+                                        <li><a class="dropdown-item" href="cobit.html"><i class="fas fa-project-diagram me-2"></i>Tema4</a></li>
+                                      </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="temasDropdown" role="button" data-bs-toggle="dropdown">
+                                        <i class=></i> Modulo 7
+                                    </a>
+                                    <ul class="dropdown-menu dropdown-menu-end">
+                                        <li><h6 class="dropdown-header">Modulo 7</h6></li>
+                                        <li><a class="dropdown-item" href="gobernanza.html"><i class=></i>Tema1</a></li>
+                                        <li><a class="dropdown-item" href="itsm.html"><i class=""></i>Tema2</a></li>
+                                        <li><a class="dropdown-item" href="itil.html"><i class="fas fa-book-open me-2"></i>Tema3</a></li>
+                                        <li><a class="dropdown-item" href="cobit.html"><i class="fas fa-project-diagram me-2"></i>Tema4</a></li>
+                                      </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="temasDropdown" role="button" data-bs-toggle="dropdown">
+                                        <i class=></i> Modulo 7-103
+                                    </a>
+                                    <ul class="dropdown-menu dropdown-menu-end">
+                                        <li><h6 class="dropdown-header">Modulo 7-103</h6></li>
+                                        <li><a class="dropdown-item" href="gobernanza.html"><i class=></i>Tema1</a></li>
+                                        <li><a class="dropdown-item" href="itsm.html"><i class=""></i>Tema2</a></li>
+                                        <li><a class="dropdown-item" href="itil.html"><i class="fas fa-book-open me-2"></i>Tema3</a></li>
+                                        <li><a class="dropdown-item" href="cobit.html"><i class="fas fa-project-diagram me-2"></i>Tema4</a></li>
+                                      </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+					 </div>
+				 </div>
+			 </div> 
+		 </div>
+    <!-- end header end -->        
+    <!--banner start -->
+    <div class="banner-main">
+    	<div class="container">
+           <div id="main_slider" class="carousel slide" data-ride="carousel">  
+           <!-- The slideshow -->
+            <div class="carousel-inner">
+    		    <div class="titlepage-h1">
+    	        <h1 class="bnner_title"><br>
+    	        <span style="color: #10b5fa">Relaciones de Servicio</span></h1>
+    	        <p class="long_text">Gestión de riesgos y costos en ITIL 4</p>
+    		    </div>
+    		    <div class="btn_main">
+            </div>
+        </div>
+  </div> 
+         <a class="carousel-control-prev" href="#main_slider" role="button" data-slide="prev">
+                <i class="fa fa-angle-left"></i>
+            </a>
+        <a class="carousel-control-next" href="#main_slider" role="button" data-slide="prev">
+                <i class="fa fa-angle-right"></i>
+            </a>
+    </div>
+</div>
+</div>
+<!--banner end -->
+
+    <!--services start -->
+    <div class="services_main" id="conceptos">
+    	<div class="container">
+    		<div class="creative_taital">
+    			<h1 class="creative_text">Relaciones de Servicio en ITIL 4</h1>
+    			<p style="color: #050000; text-align: center; font-size: larger;">
+ITIL 4 define las relaciones de servicio como <strong>conexiones colaborativas entre organizaciones</strong> para co-crear valor. Estas relaciones son bidireccionales, donde cada organización puede ser simultáneamente proveedora y consumidora de servicios. La gestión efectiva de estas relaciones requiere comprender cómo se afectan mutuamente los <strong>resultados, costos y riesgos</strong> de todas las partes involucradas.
+                </p>
+    		</div>
+    		    <div class="section_service_2">
+    		    	<h1 class="service_text">Modelo de Relaciones de Servicio</h1>
+    		    </div>
+    		    <div class="service_main">
+    		    	<div class="container">
+    		    		<div class="row">
+    		    			<div class="col-md-6">
+    		    				<div class="written_text">
+    		    					<h1 class="written_text">Componentes Clave</h1>
+    		    					<p style="text-align: justify;">
+ITIL 4 especifica tres elementos fundamentales en las relaciones de servicio:<br><br>
+
+<strong>1. Aprovisionamiento del Servicio:</strong>
+<ul style="text-align: justify;">
+<li>Gestión de recursos del proveedor</li>
+<li>Acceso controlado para usuarios</li>
+<li>Cumplimiento de acciones acordadas</li>
+<li>Mejora continua del servicio</li>
+</ul>
+
+<strong>2. Consumo del Servicio:</strong>
+<ul style="text-align: justify;">
+<li>Gestión de recursos del consumidor</li>
+<li>Acciones para utilizar el servicio</li>
+<li>Solicitud de servicios adicionales</li>
+<li>Feedback sobre el servicio</li>
+</ul>
+
+<strong>3. Gestión de Relaciones:</strong>
+<ul style="text-align: justify;">
+<li>Comunicación constante</li>
+<li>Alineamiento de expectativas</li>
+<li>Resolución de conflictos</li>
+<li>Evaluación conjunta de resultados</li>
+</ul>
+</p>
+    		    				</div>
+    		    			</div>
+    		    			<div class="col-md-6">
+    		    				<div class="written_text text-center">
+    		    					<div class="like_icon"><img src="../images/flujo_valor.png" alt="Modelo relaciones" width="400" ></div>
+    		    					<p class="mt-3"><small>Flujo de valor en relaciones de servicio ITIL 4</small></p>
+    		    				</div>
+    		    			</div>
+    		    		</div>
+    		    	</div>
+    		    </div>
+    		    <div class="section_service_2">
+    		    	<h1 class="service_text">Gestión de Costos en Servicios</h1>
+    		    </div>
+    		    <div class="service_main">
+    		    	<div class="container">
+    		    		<div class="row">
+    		    			<div class="col-md-6">
+    		    				<div class="written_text text-center">
+    		    					<div class="like_icon"><img src="../images/Costo_servi.jpg" alt="Costos servicios" width="350" ></div>
+    		    				</div>
+    		    			</div>
+    		    			<div class="col-md-6">
+    		    				<div class="written_text">
+    		    					<h1 class="written_text">Tipos de Costos</h1>
+    		    					<p style="text-align: justify;">
+ITIL 4 clasifica los costos desde la perspectiva del consumidor en dos categorías:<br><br>
+
+<strong>Costos Eliminados/Reducidos:</strong>
+<ul style="text-align: justify;">
+<li>Inversiones que el consumidor evita gracias al servicio</li>
+<li>Parte fundamental de la propuesta de valor</li>
+<li>Ejemplos: Costo de personal interno, infraestructura propia</li>
+</ul>
+
+<strong>Costos Impuestos:</strong>
+<ul style="text-align: justify;">
+<li>Inversiones requeridas para consumir el servicio</li>
+<li>Incluyen más que el precio del servicio</li>
+<li>Ejemplos: Capacitación, adaptación de procesos, integraciones</li>
+</ul>
+
+<strong>Análisis de Costo Total:</strong>
+<ul style="text-align: justify;">
+<li>Comparar costos eliminados vs. costos impuestos</li>
+<li>Evaluar relación costo-beneficio a lo largo del ciclo de vida</li>
+<li>Considerar costos de cambio y salida</li>
+</ul>
+</p>
+    		    				</div>
+    		    			</div>
+    		    		</div>
+    		    	</div>
+    		    </div>
+    		    <div class="section_service_2">
+    		    	<h1 class="service_text">Gestión de Riesgos en Servicios</h1>
+    		    </div>
+    		    <div class="service_main">
+    		    	<div class="container">
+    		    		<div class="row">
+    		    			<div class="col-md-6">
+    		    				<div class="written_text">
+    		    					<h1 class="written_text">Tipos de Riesgos</h1>
+    		    					<p style="text-align: justify;">
+ITIL 4 distingue dos categorías de riesgos en las relaciones de servicio:<br><br>
+
+<strong>Riesgos Eliminados/Reducidos:</strong>
+<ul style="text-align: justify;">
+<li>Peligros que el servicio ayuda a mitigar</li>
+<li>Parte clave del valor entregado</li>
+<li>Ejemplos: Fallas de infraestructura, brechas de seguridad</li>
+</ul>
+
+<strong>Riesgos Impuestos:</strong>
+<ul style="text-align: justify;">
+<li>Nuevas vulnerabilidades introducidas por el servicio</li>
+<li>Deben gestionarse activamente</li>
+<li>Ejemplos: Dependencia del proveedor, cumplimiento normativo</li>
+</ul>
+
+<strong>Estrategias de Gestión:</strong>
+<ul style="text-align: justify;">
+<li>Transferencia: Compartir riesgos con el proveedor</li>
+<li>Mitigación: Implementar controles preventivos</li>
+<li>Aceptación: Asumir riesgos calculados</li>
+<li>Evitación: Cambiar enfoque si riesgos son inaceptables</li>
+</ul>
+</p>
+    		    				</div>
+    		    			</div>
+    		    			<div class="col-md-6">
+    		    				<div class="written_text text-center">
+    		    					<div class="like_icon"><img src="../images/Gestion.webp" alt="Gestión riesgos" width="350" ></div>
+    		    					<p class="mt-3"><small>Matriz de probabilidad/impacto para riesgos de servicio</small></p>
+    		    				</div>
+    		    			</div>
+    		    		</div>
+    		    	</div>
+    		    </div>
+    		    <div class="section_service_2">
+    		    	<h1 class="service_text">Caso Práctico: Servicio en la Nube</h1>
+    		    </div>
+    		    <div class="service_main">
+    		    	<div class="container">
+    		    		<div class="row">
+    		    			<div class="col-md-12">
+    		    				<div class="written_text">
+    		    					<div class="table-responsive">
+    		    						<table class="table table-bordered">
+    		    							<thead class="thead-dark">
+    		    								<tr>
+    		    									<th>Aspecto</th>
+    		    									<th>Costos</th>
+    		    									<th>Riesgos</th>
+    		    									<th>Gestión Recomendada</th>
+    		    								</tr>
+    		    							</thead>
+    		    							<tbody>
+    		    								<tr>
+    		    									<td><strong>Para el Consumidor</strong></td>
+    		    									<td>
+    		    										<strong>Eliminados:</strong> Compra de servidores, licencias<br>
+    		    										<strong>Impuestos:</strong> Migración de datos, formación
+    		    									</td>
+    		    									<td>
+    		    										<strong>Reducidos:</strong> Fallas de hardware<br>
+    		    										<strong>Impuestos:</strong> Dependencia del proveedor
+    		    									</td>
+    		    									<td>
+    		    										Cláusulas de salida en contrato<br>
+    		    										Plan de continuidad alternativo
+    		    									</td>
+    		    								</tr>
+    		    								<tr>
+    		    									<td><strong>Para el Proveedor</strong></td>
+    		    									<td>
+    		    										<strong>Inversión:</strong> Infraestructura, seguridad<br>
+    		    										<strong>Operación:</strong> Soporte 24/7, actualizaciones
+    		    									</td>
+    		    									<td>
+    		    										<strong>Operacionales:</strong> Caídas del servicio<br>
+    		    										<strong>Reputacionales:</strong> Pérdida de datos
+    		    									</td>
+    		    									<td>
+    		    										Redundancia de sistemas<br>
+    		    										Backups geodistribuidos
+    		    									</td>
+    		    								</tr>
+    		    								<tr>
+    		    									<td><strong>Relación</strong></td>
+    		    									<td>
+    		    										Modelo de precios escalable<br>
+    		    										Penalizaciones por incumplimiento
+    		    									</td>
+    		    									<td>
+    		    										Cambios regulatorios<br>
+    		    										Expectativas desalineadas
+    		    									</td>
+    		    									<td>
+    		    										Reuniones trimestrales de alineación<br>
+    		    										Mecanismos ágiles de ajuste
+    		    									</td>
+    		    								</tr>
+    		    							</tbody>
+    		    						</table>
+    		    					</div>
+    		    				</div>
+    		    			</div>
+    		    		</div>
+    		    	</div>
+    		    </div>
+    	</div>	  
+	</div>
+    <div class="copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                   <p class="copyright_text">© 2023 ITIL 4 - Gestión de Servicios</p>
+                </div>
+            </div>
+        </div>
+    </div>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+      <script src="js/scripts.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+      <script src="js/jquery.min.js"></script>
+      <script src="js/popper.min.js"></script>
+      <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
