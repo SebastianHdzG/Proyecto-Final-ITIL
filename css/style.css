@@ -633,3 +633,64 @@ button.main_bt {
     color: #fff;
     
 }
+
+.cadena_valor{
+	width: 100%;
+	float: left;
+	background-color: #072833;
+}
+
+.cadena_valor_text{
+	width: 100%;
+	float: left;
+	font-size: 34px;
+	color: #ffffff;
+	text-align: center;
+	font-weight: bold;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.cadena_valor_2{
+	width: 100%;
+	float: left;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.seccion_1{
+	width: 100%;
+	float: left;
+	background-color: #ffffff;
+    box-shadow: 0px 0px 4px 0px;
+}
+
+.date1-bt {
+    border: none;
+	background-color: #fff;
+    color: #072833;
+    width: 110px;
+    height: 35px;
+    font-size: 20px;
+    margin-top: -35px;
+    font-weight: 500;
+    max-width: 100%;
+    clear: both;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.date2-bt {
+    border: none;
+    background-color: #fff;
+    color: #072833;
+    width: 110px;
+    height: 35px;
+    font-size: 20px; 
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto; 
+}
