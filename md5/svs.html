@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sistema de Valor del Servicio ITIL</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+</head>
+<style>
+    /* General */
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: #f0f4f8;
+  color: #333;
+}
+
+h1, h2 {
+  margin: 0 0 10px;
+}
+
+p {
+  margin: 0 0 10px;
+}
+
+/* Header */
+header {
+  background-color: #072833;
+  color: white;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+header img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+
+/* Layout Container */
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+/* Grid para secciones iniciales */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+/* Cards */
+.section {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.section h2 {
+  color: #072833;
+  font-size: 1.25rem;
+}
+
+/* Cierre */
+.cierre {
+  background: white;
+  margin: 40px auto;
+  max-width: 1200px;
+  padding: 25px;
+  border-radius: 12px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 40px;
+  padding: 20px;
+  background: #072833;
+  color: white;
+}
+
+/* Componentes del SVS */
+.svs-fullwidth {
+  width: 100%;
+  background-color: #eef4fb;
+  padding: 40px 0;
+}
+
+.svs-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.titulo-centrado {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 30px;
+  color: #072833;
+}
+
+.componentes-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.fila {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.fila .item {
+  flex: 1;
+  min-width: 280px;
+  background: white;
+  padding: 20px;
+  border-left: 5px solid #007bff;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.fila.centrado {
+  justify-content: center;
+}
+
+.imagen-componentes {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.imagen-componentes img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+</style>
+<body>
+  <header>
+    <h1>Sistema de Valor del Servicio (SVS) - ITIL</h1>
+  </header>
+
+  <main class="container">
+    <div class="grid-container">
+      <section class="section">
+        <h2>¿Qué es el SVS de ITIL?</h2>
+        <p>El sistema de valor del servicio es un modelo operativo flexible orientado al valor que permite a la organización crear una variedad de combinaciones de actividades y componentes para adaptarse a su situación particular.</p>
+      </section>
+
+      <section class="section">
+        <h2>Propósito del Sistema de Valor del Servicio</h2>
+        <p>Garantizar que la organización co-crea valor constantemente con todas las partes interesadas a través del uso y la gestión de productos y servicios.</p>
+      </section>
+
+      <section class="section">
+        <h2>Entradas al SVS: Oportunidad y Demanda</h2>
+        <p>Las oportunidades representan opciones que pueden agregar valor o mejorar la organización. La demanda refleja la necesidad de productos o servicios.</p>
+      </section>
+    </div>
+  </main>
+
+  <section class="svs-fullwidth">
+    <div class="svs-wrapper">
+      <h2 class="titulo-centrado">Componentes del SVS</h2>
+      <div class="componentes-grid">
+        <div class="fila">
+          <div class="item">
+            <strong>1. Principios guía:</strong> Recomendaciones que guían a la organización.
+          </div>
+          <div class="item">
+            <strong>2. Gobernanza:</strong> Cómo se dirige y controla una organización.
+          </div>
+        </div>
+        <div class="fila">
+          <div class="item">
+            <strong>3. Cadena de valor del servicio:</strong> Actividades para entregar un servicio valioso.
+          </div>
+          <div class="item">
+            <strong>4. Prácticas:</strong> Recursos organizacionales para alcanzar objetivos.
+          </div>
+        </div>
+        <div class="fila centrado">
+          <div class="item">
+            <strong>5. Mejora continua:</strong> Actividad constante para asegurar desempeño.
+          </div>
+        </div>
+        <div class="imagen-componentes">
+          <img src="svs.png" alt="Componentes del SVS" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section cierre">
+    <h2>Enfoque integrado</h2>
+    <p>El SVS de ITIL apoya métodos modernos como Agile, DevOps y Lean, además de enfoques tradicionales.</p>
+  </section>
+
+  <footer>
+    <p>Copyright © 2019 | ITIL® Fundamentos</p>
+  </footer>
+</body>
+</html>
