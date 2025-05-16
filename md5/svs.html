@@ -13,8 +13,8 @@
   <meta name="author" content=""> 
 
   <!-- CSS Files -->
-  <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="../css/style.css">
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/style.css">
   <link rel="stylesheet" href="../css/responsive.css">
   <link rel="icon" href="../images/fevicon.png" type="image/gif">
   <link rel="stylesheet" href="../css/jquery.mCustomScrollbar.min.css">
@@ -25,31 +25,41 @@
 </head>
 
 <body>
+  <!-- Header logo -->
   <div class="header_main">
     <div class="container">
       <div class="logo">
-        <a href="../index.html"><img src="../images/ITILlogo.png" width="250" alt="ITIL Logo"></a>
+        <a href="../index.html">
+          <img src="../images/ITILlogo.png" width="250" alt="ITIL Logo">
+        </a>
       </div>
     </div>
   </div>
 
+  <!-- Navbar -->
   <div class="header">
     <div class="container">
       <div class="col-sm-12">
         <div class="menu-area">
           <nav class="navbar navbar-expand-lg">
-            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
               <i class="fa fa-bars"></i>
             </button>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav mr-auto">
-                <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
+              <ul class="navbar-nav me-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="../index.html">Home</a>
+                </li>
 
                 <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="modulo2Dropdown" role="button" data-bs-toggle="dropdown">Módulo 2</a>
-                  <ul class="dropdown-menu dropdown-menu-end">
+                  <a class="nav-link dropdown-toggle" href="#" id="modulo2Dropdown" role="button"
+                     data-bs-toggle="dropdown" aria-expanded="false">
+                    Módulo 2
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="modulo2Dropdown">
                     <li><h6 class="dropdown-header">Módulo 2 - Gestión de Servicios</h6></li>
                     <li><hr class="dropdown-divider"></li>
                     <li><a class="dropdown-item" href="../md2/modulo2.html">Valor y Co-Creación</a></li>
@@ -59,11 +69,16 @@
                   </ul>
                 </li>
 
-                <li class="nav-item"><a class="nav-link" href="../md3/modulo3.html">Módulo 3</a></li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../md3/modulo3.html">Módulo 3</a>
+                </li>
 
                 <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="modulo4Dropdown" role="button" data-bs-toggle="dropdown">Módulo 4</a>
-                  <ul class="dropdown-menu dropdown-menu-end">
+                  <a class="nav-link dropdown-toggle" href="#" id="modulo4Dropdown" role="button"
+                     data-bs-toggle="dropdown" aria-expanded="false">
+                    Módulo 4
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="modulo4Dropdown">
                     <li><h6 class="dropdown-header">Módulo 4</h6></li>
                     <li><a class="dropdown-item" href="../md4/4d_svs.html">Las Cuatro Dimensiones SVS</a></li>
                     <li><a class="dropdown-item" href="../md4/OrgyPer.html">Organización y Personas</a></li>
@@ -73,19 +88,28 @@
                   </ul>
                 </li>
 
-                <li class="nav-item"><a class="nav-link" href="../md5/modulo5.html">Módulo 5</a></li>
-                <li class="nav-item"><a class="nav-link" href="../md6/modulo6.html">Módulo 6</a></li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../md5/modulo5.html">Módulo 5</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../md6/modulo6.html">Módulo 6</a>
+                </li>
 
                 <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="modulo7Dropdown" role="button" data-bs-toggle="dropdown">Módulo 7</a>
-                  <ul class="dropdown-menu dropdown-menu-end">
+                  <a class="nav-link dropdown-toggle" href="#" id="modulo7Dropdown" role="button"
+                     data-bs-toggle="dropdown" aria-expanded="false">
+                    Módulo 7
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="modulo7Dropdown">
                     <li><h6 class="dropdown-header">Módulo 7</h6></li>
                     <li><a class="dropdown-item" href="../md7/modulo7.html">Las prácticas de ITIL</a></li>
                     <li><a class="dropdown-item" href="../md7/modulo7-tema4.html">Propósito de las prácticas de ITIL</a></li>
                   </ul>
                 </li>
 
-                <li class="nav-item"><a class="nav-link" href="../md72/modulo72.html">Módulo 7-2</a></li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../md72/modulo72.html">Módulo 7-2</a>
+                </li>
               </ul>
             </div>
           </nav>
@@ -94,6 +118,7 @@
     </div>
   </div>
 
+  <!-- Inline Styles -->
   <style>
     body {
       margin: 0;
@@ -110,6 +135,13 @@
       margin: 0 0 10px;
     }
 
+    /* Layout Container */
+    .container {
+      max-width: 1200px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
     header {
       background-color: #072833;
       color: white;
@@ -122,13 +154,6 @@
       height: auto;
       border-radius: 12px;
       margin-bottom: 15px;
-    }
-
-    /* Layout Container */
-    .container {
-      max-width: 1200px;
-      margin: auto;
-      padding: 40px 20px;
     }
 
     .grid-container {
@@ -223,6 +248,7 @@
     }
   </style>
 
+  <!-- Main content -->
   <main class="container">
     <div class="grid-container">
       <section class="section">
@@ -242,6 +268,7 @@
     </div>
   </main>
 
+  <!-- SVS Components full-width section -->
   <section class="svs-fullwidth">
     <div class="svs-wrapper">
       <h2 class="titulo-centrado">Componentes del SVS</h2>
@@ -264,13 +291,20 @@
     </div>
   </section>
 
+  <!-- Conclusion section -->
   <section class="section cierre">
     <h2>Enfoque integrado</h2>
     <p>El SVS de ITIL apoya métodos modernos como Agile, DevOps y Lean, además de enfoques tradicionales.</p>
   </section>
 
+  <!-- Footer -->
   <footer>
     <p>Copyright © 2019 | ITIL® Fundamentos</p>
   </footer>
+
+  <!-- JS Files -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="../js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+
