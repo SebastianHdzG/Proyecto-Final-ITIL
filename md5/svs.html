@@ -1,146 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- basic -->
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<!-- mobile metas -->
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="viewport" content="initial-scale=1, maximum-scale=1">
-<!-- site metas -->
-<title>Cron</title>
-<meta name="keywords" content="">
-<meta name="description" content="">
-<meta name="author" content=""> 
-<!-- bootstrap css -->
-<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
-<!-- style css -->
-<link rel="stylesheet" type="text/css" href="../css/style.css">
-<!-- Responsive-->
-<link rel="stylesheet" href="../css/responsive.css">
-<!-- fevicon -->
-<link rel="icon" href="../images/fevicon.png" type="image/gif" />
-<!-- Scrollbar Custom CSS -->
-<link rel="stylesheet" href="../css/jquery.mCustomScrollbar.min.css">
-<!-- Tweaks for older IEs-->
-<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
-<!-- owl stylesheets --> 
-<link rel="stylesheet" href="../css/owl.carousel.min.css">
-<link rel="stylesheet" href="../css/owl.theme.default.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
-
+  <!-- basics -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- mobile metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- site metas -->
+  <title>Cron</title>
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <!-- styles -->
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/responsive.css">
+  <link rel="stylesheet" href="../css/jquery.mCustomScrollbar.min.css">
+  <link rel="stylesheet" href="../css/owl.carousel.min.css">
+  <link rel="stylesheet" href="../css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+  <link rel="icon" href="../images/fevicon.png" type="image/gif">
 </head>
-<!-- body -->
 <body>
-    <div class="header_main">
-        <div class="container">
-            <div class="logo"><a href="../index.html"><img src="../images/ITILlogo.png" width="250"></a></div>
-        </div>
+  <!-- header logo -->
+  <div class="header_main">
+    <div class="container">
+      <div class="logo">
+        <a href="../index.html">
+          <img src="../images/ITILlogo.png" width="250" alt="ITIL Logo">
+        </a>
+      </div>
     </div>
+  </div>
+
+  <!-- navbar -->
+  <div class="header">
+    <div class="container">
+      <div class="menu-area">
+        <nav class="navbar navbar-expand-lg">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                  aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="mod2" role="button" data-bs-toggle="dropdown"
+                   aria-expanded="false">Módulo 2</a>
+                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="mod2">
+                  <li><h6 class="dropdown-header">Módulo 2 – Gestión de Servicios</h6></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="../md2/modulo2.html">Valor y Co-Creación</a></li>
+                  <li><a class="dropdown-item" href="../md2/modulo2.1.html">Roles y Partes Interesadas</a></li>
+                  <li><a class="dropdown-item" href="../md2/modulo2.2.html">Productos y Servicios</a></li>
+                  <li><a class="dropdown-item" href="../md2/modulo2.3.html">Relaciones y Riesgos</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item"><a class="nav-link" href="../md3/modulo3.html">Módulo 3</a></li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="mod4" role="button" data-bs-toggle="dropdown"
+                   aria-expanded="false">Módulo 4</a>
+                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="mod4">
+                  <li><h6 class="dropdown-header">Módulo 4</h6></li>
+                  <li><a class="dropdown-item" href="../md4/4d_svs.html">Las Cuatro Dimensiones SVS</a></li>
+                  <li><a class="dropdown-item" href="../md4/OrgyPer.html">Organización y Personas</a></li>
+                  <li><a class="dropdown-item" href="../md4/infoytec.html">Información y Tecnología</a></li>
+                  <li><a class="dropdown-item" href="../md4/sopro.html">Socios y Proveedores</a></li>
+                  <li><a class="dropdown-item" href="../md4/pestle.html">Flujos de Valor</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item"><a class="nav-link" href="../md5/modulo5.html">Módulo 5</a></li>
+              <li class="nav-item"><a class="nav-link" href="../md6/modulo6.html">Módulo 6</a></li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="mod7" role="button" data-bs-toggle="dropdown"
+                   aria-expanded="false">Módulo 7</a>
+                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="mod7">
+                  <li><h6 class="dropdown-header">Módulo 7</h6></li>
+                  <li><a class="dropdown-item" href="../md7/modulo7.html">Las prácticas de ITIL</a></li>
+                  <li><a class="dropdown-item" href="../md7/modulo7-tema4.html">Propósito de las prácticas de ITIL</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item"><a class="nav-link" href="../md72/modulo72.html">Módulo 7-2</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
     </div>
-    <div class="header">
-        <div class="container">
-        <!--  header inner -->
-            <div class="col-sm-12">
-                 
-                 <div class="menu-area">
-                    <nav class="navbar navbar-expand-lg ">
-                        <!-- <a class="navbar-brand" href="#">Menu</a> -->
+  </div>
 
-
-<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                       <i class="fa fa-bars"></i>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav mr-auto">
-                                <li class="nav-item">
-                                <a class="nav-link" href="../index.html">Home</a></li>
-                               <li class="nav-item">
-                                 <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" id="temasDropdown" role="button" data-bs-toggle="dropdown">
-                                        <i class=></i> Modulo 2
-                                    </a>
-                                    <ul class="dropdown-menu dropdown-menu-end">
-                                        <li><h6 class="dropdown-header">Módulo 2 - Gestión de Servicios</h6></li>
-                                        <li><hr class="dropdown-divider"></li>
-                                        <li>
-                                            <a class="dropdown-item" href="../md2/modulo2.html">
-                                                <i class="" aria-hidden="true"></i>Valor y Co-Creación
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href="../md2/modulo2.1.html">
-                                                <i class="" aria-hidden="true"></i>Roles y Partes Interesadas
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href="../md2/modulo2.2.html">
-                                                <i class="" aria-hidden="true"></i>Productos y Servicios
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href="../md2/modulo2.3.html">
-                                                <i class="" aria-hidden="true"></i>Relaciones y Riesgos
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                
-                                <li class="nav-item">
-                                  <a class="nav-link" href="../md3/modulo3.html">Modulo3</a>
-                                </li>
-
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" id="temasDropdown" role="button" data-bs-toggle="dropdown">
-                                        <i class=></i> Modulo 4
-                                    </a>
-                                    <ul class="dropdown-menu dropdown-menu-end">
-                                        <li><h6 class="dropdown-header">Modulo 4</h6></li>
-                                        <li><a class="dropdown-item" href="../md4/4d_svs.html"><i class="fas fa-project-diagram me-2"></i>Las Cuatro Dimenciones SVS.</a></li>
-                                         <li><a class="dropdown-item" href="../md4/OrgyPer.html"><i class=></i>Organización y Personas</a></li>
-                                        <li><a class="dropdown-item" href="../md4/infoytec.html"><i class=""></i>Información y Tecnologpia</a></li>
-                                        <li><a class="dropdown-item" href="../md4/sopro.html"><i class="fas fa-book-open me-2"></i>Socios y Provedores</a></li>
-                                        <li><a class="dropdown-item" href="../md4/pestle.html"><i class="fas fa-project-diagram me-2"></i>Flujos de Valor</a></li>
-                                      </ul>
-                                </li>
-
-                                 <li class="nav-item">
-                                  <a class="nav-link" href="../md5/modulo5.html">Modulo5</a>
-                                </li>
-
-
-                                <li class="nav-item">
-                                  <a class="nav-link" href="../md6/modulo6.html">Modulo6</a>
-                                </li>
-
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" id="temasDropdown" role="button" data-bs-toggle="dropdown">
-                                        <i class=></i> Modulo 7
-                                    </a>
-                                    <ul class="dropdown-menu dropdown-menu-end">
-                                        <li><h6 class="dropdown-header">Modulo 7</h6></li>
-                                        <li><a class="dropdown-item" href="../md7/modulo7.html"><i class=></i>Las prácticas de ITIL</a></li>
-                                        <li><a class="dropdown-item" href="../md7/modulo7-tema4.html"><i class=""></i>Proposito de las prácticas de ITIL</a></li>
-                                      </ul>
-                                </li>
-                                <li class="nav-item">
-                                <a class="nav-link" href="../md72/modulo72.html">Modulo7-2</a></li>
-                            </ul>
-                        </div>
-                    </nav>
-                </div>
-            </div>
-        </div> 
-    </div>
- 
-
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-      <script src="js/scripts.js"></script>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-      <script src="js/jquery.min.js"></script>
-      <script src="js/popper.min.js"></script>
-      <script src="js/bootstrap.bundle.min.js"></script>
-
+  <!-- footer scripts -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="../js/bootstrap.bundle.min.js"></script>
+  <script src="../js/scripts.js"></script>
 </body>
 </html>
+
