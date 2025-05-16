@@ -1,101 +1,214 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-  <!-- basics -->
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <!-- mobile metas -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- site metas -->
-  <title>Cron</title>
-  <meta name="keywords" content="">
-  <meta name="description" content="">
-  <meta name="author" content="">
-  <!-- styles -->
-  <link rel="stylesheet" href="../css/bootstrap.min.css">
-  <link rel="stylesheet" href="../css/style.css">
-  <link rel="stylesheet" href="../css/responsive.css">
-  <link rel="stylesheet" href="../css/jquery.mCustomScrollbar.min.css">
-  <link rel="stylesheet" href="../css/owl.carousel.min.css">
-  <link rel="stylesheet" href="../css/owl.theme.default.min.css">
-  <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
-  <link rel="icon" href="../images/fevicon.png" type="image/gif">
+<!-- basic -->
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!-- mobile metas -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+<!-- site metas -->
+<title>ITIL 4 - Roles y Partes Interesadas</title>
+<meta name="keywords" content="ITIL, roles, partes interesadas, gestión de servicios">
+<meta name="description" content="Roles clave y partes interesadas en ITIL 4">
+<meta name="author" content=""> 
+<!-- bootstrap css -->
+<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+<!-- style css -->
+<link rel="stylesheet" type="text/css" href="../css/style.css">
+<!-- Responsive-->
+<link rel="stylesheet" href="css/responsive.css">
+<!-- fevicon -->
+<link rel="icon" href="IMG/fevicon.png" type="image/gif" />
+<!-- Scrollbar Custom CSS -->
+<link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+<!-- Tweaks for older IEs-->
+<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+<!-- owl stylesheets --> 
+<link rel="stylesheet" href="css/owl.carousel.min.css">
+<link rel="stylesheet" href="css/owl.theme.default.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
 </head>
 <body>
-  <!-- header logo -->
-  <div class="header_main">
-    <div class="container">
-      <div class="logo">
-        <a href="../index.html">
-          <img src="../images/ITILlogo.png" width="250" alt="ITIL Logo">
-        </a>
-      </div>
+    <div class="header_main">
+        <div class="container">
+            <div class="logo"><a href="../index.html"><img src="../images/ITILlogo.png" width="250"></a></div>
+        </div>
     </div>
-  </div>
-
-  <!-- navbar -->
-  <div class="header">
-    <div class="container">
-      <div class="menu-area">
-        <nav class="navbar navbar-expand-lg">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                  aria-expanded="false" aria-label="Toggle navigation">
-            <i class="fa fa-bars"></i>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto">
-              <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
-
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="mod2" role="button" data-bs-toggle="dropdown"
-                   aria-expanded="false">Módulo 2</a>
-                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="mod2">
-                  <li><h6 class="dropdown-header">Módulo 2 – Gestión de Servicios</h6></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="../md2/modulo2.html">Valor y Co-Creación</a></li>
-                  <li><a class="dropdown-item" href="../md2/modulo2.1.html">Roles y Partes Interesadas</a></li>
-                  <li><a class="dropdown-item" href="../md2/modulo2.2.html">Productos y Servicios</a></li>
-                  <li><a class="dropdown-item" href="../md2/modulo2.3.html">Relaciones y Riesgos</a></li>
-                </ul>
-              </li>
-
-              <li class="nav-item"><a class="nav-link" href="../md3/modulo3.html">Módulo 3</a></li>
-
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="mod4" role="button" data-bs-toggle="dropdown"
-                   aria-expanded="false">Módulo 4</a>
-                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="mod4">
-                  <li><h6 class="dropdown-header">Módulo 4</h6></li>
-                  <li><a class="dropdown-item" href="../md4/4d_svs.html">Las Cuatro Dimensiones SVS</a></li>
-                  <li><a class="dropdown-item" href="../md4/OrgyPer.html">Organización y Personas</a></li>
-                  <li><a class="dropdown-item" href="../md4/infoytec.html">Información y Tecnología</a></li>
-                  <li><a class="dropdown-item" href="../md4/sopro.html">Socios y Proveedores</a></li>
-                  <li><a class="dropdown-item" href="../md4/pestle.html">Flujos de Valor</a></li>
-                </ul>
-              </li>
-
-              <li class="nav-item"><a class="nav-link" href="../md5/modulo5.html">Módulo 5</a></li>
-              <li class="nav-item"><a class="nav-link" href="../md6/modulo6.html">Módulo 6</a></li>
-
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="mod7" role="button" data-bs-toggle="dropdown"
-                   aria-expanded="false">Módulo 7</a>
-                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="mod7">
-                  <li><h6 class="dropdown-header">Módulo 7</h6></li>
-                  <li><a class="dropdown-item" href="../md7/modulo7.html">Las prácticas de ITIL</a></li>
-                  <li><a class="dropdown-item" href="../md7/modulo7-tema4.html">Propósito de las prácticas de ITIL</a></li>
-                </ul>
-              </li>
-
-              <li class="nav-item"><a class="nav-link" href="../md72/modulo72.html">Módulo 7-2</a></li>
-            </ul>
-          </div>
-        </nav>
-      </div>
     </div>
-  </div>
+    <div class="header">
+        <div class="container">
+        <!--  header inner -->
+            <div class="col-sm-12">
+                 
+                 <div class="menu-area">
+                    <nav class="navbar navbar-expand-lg ">
+                        <!-- <a class="navbar-brand" href="#">Menu</a> -->
+
+
+<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                       <i class="fa fa-bars"></i>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav mr-auto">
+                                <li class="nav-item">
+                                <a class="nav-link" href="../index.html">Home</a></li>
+                               <li class="nav-item">
+                                 <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="temasDropdown" role="button" data-bs-toggle="dropdown">
+                                        <i class=></i> Modulo 2
+                                    </a>
+                                    <ul class="dropdown-menu dropdown-menu-end">
+                                        <li><h6 class="dropdown-header">Módulo 2 - Gestión de Servicios</h6></li>
+                                        <li><hr class="dropdown-divider"></li>
+                                        <li>
+                                            <a class="dropdown-item" href="../md2/modulo2.html">
+                                                <i class="" aria-hidden="true"></i>Valor y Co-Creación
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="../md2/modulo2.1.html">
+                                                <i class="" aria-hidden="true"></i>Roles y Partes Interesadas
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="../md2/modulo2.2.html">
+                                                <i class="" aria-hidden="true"></i>Productos y Servicios
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="../md2/modulo2.3.html">
+                                                <i class="" aria-hidden="true"></i>Relaciones y Riesgos
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                
+                                <li class="nav-item">
+                                  <a class="nav-link" href="../md3/modulo3.html">Modulo3</a>
+                                </li>
+
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="temasDropdown" role="button" data-bs-toggle="dropdown">
+                                        <i class=></i> Modulo 4
+                                    </a>
+                                    <ul class="dropdown-menu dropdown-menu-end">
+                                        <li><h6 class="dropdown-header">Modulo 4</h6></li>
+                                         <li><a class="dropdown-item" href="../md4/OrgyPer.html"><i class=></i>Organización y Personas</a></li>
+                                        <li><a class="dropdown-item" href="../md4/infoytec.html"><i class=""></i>Información y Tecnologpia</a></li>
+                                        <li><a class="dropdown-item" href="../md4/sopro.html"><i class="fas fa-book-open me-2"></i>Socios y Provedores</a></li>
+                                        <li><a class="dropdown-item" href="../md4/pestle.html"><i class="fas fa-project-diagram me-2"></i>Flujos de Valor</a></li>
+                                      </ul>
+                                </li>
+
+                                 <li class="nav-item">
+                                  <a class="nav-link" href="../md5/modulo5.html">Modulo5</a>
+                                </li>
+
+
+                                <li class="nav-item">
+                                  <a class="nav-link" href="../md6/modulo6.html">Modulo6</a>
+                                </li>
+
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="temasDropdown" role="button" data-bs-toggle="dropdown">
+                                        <i class=></i> Modulo 7
+                                    </a>
+                                    <ul class="dropdown-menu dropdown-menu-end">
+                                        <li><h6 class="dropdown-header">Modulo 7</h6></li>
+                                        <li><a class="dropdown-item" href="../md7/modulo7.html"><i class=></i>Las prácticas de ITIL</a></li>
+                                        <li><a class="dropdown-item" href="../md7/modulo7-tema4.html"><i class=""></i>Proposito de las prácticas de ITIL</a></li>
+                                      </ul>
+                                </li>
+                                <li class="nav-item">
+                                <a class="nav-link" href="../md72/modulo72.html">Modulo7-2</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div> 
+    </div>
+    <!-- end header end -->        
+    <!--banner start -->
+    <div class="banner-main">
+    	<div class="container">
+           <div id="main_slider" class="carousel slide" data-ride="carousel">  
+           <!-- The slideshow -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+    		    <div class="titlepage-h1">
+    	        <h1 class="bnner_title">Modulo 3<br>
+    	        <span style="color: #10b5fa">Principios guia</span></h1>
+    	        <p class="long_text">Se cataloga como una filosofía o idea establecida que se encarga de orientar a una organización dentro de todas sus circunstancias</p>
+    		    </div>
+        </div>
+    <div class="carousel-item">
+    		<div class="titlepage-h1">
+    	       <h1 class="bnner_title">Modulo 3<br>
+    	       <span style="color: #10b5fa">Enfoque en valor</span></h1>
+    	       <p class="long_text">Este principio busca crear valor para los consumidores de servicios. </p>
+    		</div>
+    </div>
+    <div class="carousel-item">
+    		<div class="titlepage-h1">
+    	       <h1 class="bnner_title">Modulo 3<br>
+    	       <span style="color: #10b5fa">Empieza donde se esta</span></h1>
+    	       <p class="long_text">Este principio se enfoca en considerar lo que ya está disponible en lugar de comenzar desde cero </p>
+    		</div>
+    </div>
+    <div class="carousel-item">
+            <div class="titlepage-h1">
+               <h1 class="bnner_title">Modulo 3<br>
+               <span style="color: #10b5fa">Progresar Iterativamente con Retroalimentación</span></h1>
+               <p class="long_text">Dividir el trabajo en unidades más pequeñas y manejables que requieran esfuerzos mínimos de mejora.</p>
+            </div>
+    </div>
+    <div class="carousel-item">
+            <div class="titlepage-h1">
+               <h1 class="bnner_title">Modulo 3<br>
+               <span style="color: #10b5fa">Colaborar y Promover la Visibilidad</span></h1>
+               <p class="long_text">Eliminar silos donde las personas trabajan de forma aislada y el intercambio de información se limita. </p>
+            </div>
+    </div>
+    <div class="carousel-item">
+            <div class="titlepage-h1">
+               <h1 class="bnner_title">Modulo 3<br>
+               <span style="color: #10b5fa">Pensar y Trabajar Holísticamente</span></h1>
+               <p class="long_text">Este principio se centra en trabajar de manera integral </p>
+            </div>
+    </div>
+    <div class="carousel-item">
+            <div class="titlepage-h1">
+               <h1 class="bnner_title">Modulo 3<br>
+               <span style="color: #10b5fa">Empieza donde se esta</span></h1>
+               <p class="long_text">Este principio se enfoca en considerar lo que ya está disponible en lugar de comenzar desde cero </p>
+            </div>
+    </div>
+    <div class="carousel-item">
+            <div class="titlepage-h1">
+               <h1 class="bnner_title">Modulo 3<br>
+               <span style="color: #10b5fa">Mantenerlo Simple y Práctico</span></h1>
+               <p class="long_text">Se enfoca en simplificar los métodos de trabajo complejos.  </p>
+            </div>
+    </div>
+       <div class="carousel-item">
+            <div class="titlepage-h1">
+               <h1 class="bnner_title">Modulo 3<br>
+               <span style="color: #10b5fa">Optimizar y Automatizar</span></h1>
+               <p class="long_text">Este principio se centra en optimizar y automatizar el trabajo realizado</p>
+            </div>
+    </div>
+  </div> 
+         <a class="carousel-control-prev" href="#main_slider" role="button" data-slide="prev">
+                <i class="fa fa-angle-left"></i>
+            </a>
+        <a class="carousel-control-next" href="#main_slider" role="button" data-slide="prev">
+                <i class="fa fa-angle-right"></i>
+            </a>
+    </div>
+</div>
+</div>
 
   <!-- footer scripts -->
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
