@@ -1,5 +1,5 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="es">
 <head>
 <!-- basic -->
 <meta charset="utf-8">
@@ -17,18 +17,16 @@
 <!-- style css -->
 <link rel="stylesheet" type="text/css" href="../css/style.css">
 <!-- Responsive-->
-<link rel="stylesheet" href="../css/responsive.css">
+<link rel="stylesheet" href="css/responsive.css">
 <!-- fevicon -->
 <link rel="icon" href="IMG/fevicon.png" type="image/gif" />
 <!-- Scrollbar Custom CSS -->
-<link rel="stylesheet" href="../css/jquery.mCustomScrollbar.min.css">
+<link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
 <!-- Tweaks for older IEs-->
 <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
 <!-- owl stylesheets --> 
-<link rel="stylesheet" href="../css/owl.carousel.min.css">
-<link rel="stylesheet" href="../css/owl.theme.default.min.css">
-<link rel="stylesheet" href="../css/estilomd5-2.css">
- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="css/owl.carousel.min.css">
+<link rel="stylesheet" href="css/owl.theme.default.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
 </head>
 <!-- body -->
@@ -48,7 +46,7 @@
                         <!-- <a class="navbar-brand" href="#">Menu</a> -->
 
 
-                        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                        <i class="fa fa-bars"></i>
                         </button>
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -86,8 +84,16 @@
                                     </ul>
                                 </li>
                                 
-                                <li class="nav-item">
-                                  <a class="nav-link" href="../md3/modulo3.html">Modulo3</a>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="temasDropdown" role="button" data-bs-toggle="dropdown">
+                                        <i class=></i> Modulo 3
+                                    </a>
+                                    <ul class="dropdown-menu dropdown-menu-end">
+                                        <li><h6 class="dropdown-header">Modulo 3</h6></li>
+                                        <li><a class="dropdown-item" href="modulo3/p1.html"><i class=></i>Tema1</a></li>
+                                        <li><a class="dropdown-item" href="modulo3/p2.html"><i class=""></i>Tema2</a></li>
+                                        <li><a class="dropdown-item" href="modulo3/p3.html"><i class="fas fa-book-open me-2"></i>Tema3</a></li>
+                                      </ul>
                                 </li>
 
                                 <li class="nav-item dropdown">
@@ -96,26 +102,24 @@
                                     </a>
                                     <ul class="dropdown-menu dropdown-menu-end">
                                         <li><h6 class="dropdown-header">Modulo 4</h6></li>
-                                        <li><a class="dropdown-item" href="../md4/4d_svs.html"><i class="fas fa-project-diagram me-2"></i>Las Cuatro Dimenciones SVS.</a></li>
                                          <li><a class="dropdown-item" href="../md4/OrgyPer.html"><i class=></i>Organización y Personas</a></li>
                                         <li><a class="dropdown-item" href="../md4/infoytec.html"><i class=""></i>Información y Tecnologpia</a></li>
                                         <li><a class="dropdown-item" href="../md4/sopro.html"><i class="fas fa-book-open me-2"></i>Socios y Provedores</a></li>
                                         <li><a class="dropdown-item" href="../md4/pestle.html"><i class="fas fa-project-diagram me-2"></i>Flujos de Valor</a></li>
                                       </ul>
                                 </li>
-
-                                 <li class="nav-item dropdown">
+                                <!--Esta es nuestra parte⭐-->
+                                <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="#" id="temasDropdown" role="button" data-bs-toggle="dropdown">
                                         <i class=></i> Modulo 5
                                     </a>
                                     <ul class="dropdown-menu dropdown-menu-end">
                                         <li><h6 class="dropdown-header">Modulo 5</h6></li>
                                          <li><a class="dropdown-item" href="md5/svs.html"><i class=></i>Modulo 5.1</a></li>
-                                        <li><a class="dropdown-item" href="md5/Modulo 5.2.html"><i class=""></i>Modulo 5.2</a></li>
+                                        <li><a class="dropdown-item" href="md5/.html"><i class=""></i>Modulo 5.2</a></li>
                                         <li><a class="dropdown-item" href="md5/Modulo 5.3.html"><i class="fas fa-book-open me-2"></i>Modulo 5.3</a></li>                            
                                       </ul>
                                 </li>
-
                                 <li class="nav-item">
                                   <a class="nav-link" href="../md6/modulo6.html">Modulo6</a>
                                 </li>
@@ -139,126 +143,117 @@
             </div>
         </div> 
     </div>
-    <!-- end header end -->
-    
-    <div class="container">
-        <section>
-            <h2>Introducción a la Cadena de Valor</h2>
-            <p>La cadena de valor del servicio es un modelo operativo que define las actividades clave requeridas para responder a la demanda y permitir la creación de valor a través de la formación y gestión de productos y servicios.</p>
-            
-            <p>La Cadena de Valor del Servicio de ITIL incluye seis actividades de la cadena de valor que conducen a la creación de productos y servicios y, a su vez, valor.</p>
-            
-            <h3>Las seis actividades de la cadena de valor son:</h3>
-            
-            <div class="actividades">
-                <div class="actividad">
-                    <h4>Planificar</h4>
-                    <p>Actividades estratégicas para alinear productos y servicios con las necesidades del cliente.</p>
-                </div>
-                
-                <div class="actividad">
-                    <h4>Diseñar y transicionar</h4>
-                    <p>Creación de diseños y transición de servicios a operaciones.</p>
-                </div>
-                
-                <div class="actividad">
-                    <h4>Mejorar</h4>
-                    <p>Mejora continua de productos, servicios y prácticas.</p>
-                </div>
-                
-                <div class="actividad">
-                    <h4>Obtener/construir</h4>
-                    <p>Adquisición o construcción de componentes de servicios.</p>
-                </div>
-                
-                <div class="actividad">
-                    <h4>Vincular</h4>
-                    <p>Gestión de relaciones con partes interesadas.</p>
-                </div>
-                
-                <div class="actividad">
-                    <h4>Entregar y soportar</h4>
-                    <p>Entrega y soporte continuo de servicios.</p>
+    <!--  header end --> 
+    <!--services start--> 
+    <div class="section_service_main">
+        <img src="../images/principal.jpg" alt="Sistema de Valor del Servicio de ITIL" style="width:30%; height:auto;  margin-left: auto;
+      margin-right: auto;">
+    	<p>Sistema de Valor del Servicio de ITIL</p>
+    <div class="section_service_main">
+        <div class="section_service_2">
+            <h1 class="service_text">El Sistema de Valor del Servicio de ITIL</h1>
+        </div>
+        <div class="service_main">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="written_text">
+                            <div class="like_icon"><img src="../images/like-icon.png"></div>
+                                <h1 class="written_text">Propósito del Sistema de Valor del Servicio</h1>
+                                <p>El Sistema de Valor del Servicio de ITIL (SVS) explica cómo los componentes y las actividades de la organización trabajan como un sistema para permitir la creación de valor. Cada SVS de la organización se relaciona con otras organizaciones, formando un ecosistema que a su vez puede facilitar el valor para dichas organizaciones, sus clientes y otras partes interesadas. El propósito del SVS es garantizar que la organización co-crea valor constantemente con todas las partes interesadas a través del uso y la gestión de productos y servicios. Para funcionar correctamente, la gestión de servicios debe funcionar como un sistema. El SVS de ITIL describe las aportaciones a este sistema, así como los elementos de este sistema y los resultados (logro de los objetivos de la organización y el valor para la organización). El SVS de ITIL proporciona los medios para lograr agilidad y resiliencia organizacional. Se requiere agilidad organizacional para apoyar los cambios internos, y se requiere resiliencia organizacional para prosperar en circunstancias externas cambiantes.</p>
+                            </div>
+                        </div>
+                    <div class="col-md-6">
+                        <div class="written_text">
+                            <div class="like_icon"><img src="../images/fast-forword-icon.png"></div>
+                                <h1 class="written_text">Componentes del Sistema de Valor del Servicio</h1>
+                                <p>Oportunidad: opciones o posibilidades que agregan valor a los grupos de interés.<br>Demanda: la necesidad o el deseo de productos y servicios entre los consumidores internos y externos.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            
-            <p>Las actividades de la cadena de valor representan los pasos que toma una organización para crear valor. Cada actividad contribuye a la cadena de valor, al convertir entradas específicas en salidas. Las entradas pueden ser demandas externas a la cadena de valor o pueden ser salidas de otras actividades. De esta forma, las actividades interactúan entre sí, en donde cada actividad recibe y proporciona detonadores para que se realicen otras acciones.</p>
-        </section>
-        
-        <section>
-            <h2>Prácticas y Flujos de Valor</h2>
-            <p>Para convertir las entradas en salidas, las actividades de la cadena de valor toman diferentes combinaciones de prácticas de ITIL. Cada actividad puede utilizar recursos internos o de terceros, habilidades y competencias de una o más prácticas.</p>
-            
-            <div class="ejemplos">
-                <h4>Ejemplo:</h4>
-                <p>La actividad de la cadena de valor 'Vincular' podría basarse en una serie de prácticas, incluida la gestión de proveedores, la gestión de la mesa de servicio, la gestión de relaciones y la gestión de solicitudes de servicio, para responder a las nuevas demandas de productos y servicios, decisiones o información de varias partes interesadas.</p>
-            </div>
-            
-            <h3>Flujo de Valor</h3>
-            <p>Un flujo de valor es una serie de pasos que una organización realiza para crear y entregar productos y servicios a un consumidor. Un flujo de valor es una combinación de las actividades de la cadena de valor de la organización.</p>
-            
-            <p>Los flujos de valor del servicio son combinaciones específicas de actividades y prácticas donde cada flujo de valor está diseñado para un escenario particular. Una vez diseñados, los flujos de valor deben someterse a una mejora continua. Por ejemplo, se puede crear un flujo de valor para una situación en la que un usuario de un servicio necesita que se resuelva un incidente. El flujo de valor creado para este escenario proporciona una guía completa de las actividades, prácticas y roles involucrados en la resolución de la situación.</p>
-        </section>
-        
-        <section>
-            <h2>Ejemplo de Cadena de Valor</h2>
-            <p>Una empresa de desarrollo de aplicaciones móviles tiene una cadena de valor que permite el ciclo completo de desarrollo y gestión de aplicaciones, desde el análisis de negocio hasta el desarrollo, la liberación y el soporte. La compañía ha desarrollado una serie de prácticas, apoyadas con recursos y técnicas especializadas:</p>
-            
-            <ul style="margin-left: 20px; margin-bottom: 20px;">
-                <li>Análisis de negocio</li>
-                <li>Desarrollo</li>
-                <li>Pruebas</li>
-                <li>Liberación e implementación</li>
-                <li>Soporte</li>
-            </ul>
-            
-            <p>Aunque los pasos de alto nivel son universales, diferentes productos y clientes necesitan diferentes flujos de trabajo. Por ejemplo:</p>
-            
-            <h3>Ejemplos de Flujos de Valor</h3>
-            
-            <table>
-                <thead>
-                    <tr>
-                        <th>Escenario</th>
-                        <th>Flujo de Valor</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Desarrollo de nueva aplicación</td>
-                        <td>Participación inicial (pre-venta) → Creación de prototipos → Acuerdos → Desarrollo → Liberación → Soporte</td>
-                    </tr>
-                    <tr>
-                        <td>Cambio en aplicación existente</td>
-                        <td>Desarrollo → Pruebas → Soporte</td>
-                    </tr>
-                    <tr>
-                        <td>Reparación de error</td>
-                        <td>Soporte → Reversión → Desarrollo → Pruebas → Liberación</td>
-                    </tr>
-                    <tr>
-                        <td>Experimentos con aplicaciones</td>
-                        <td>Planificación de innovación → Creación de prototipos → Desarrollo → Liberación piloto</td>
-                    </tr>
-                </tbody>
-            </table>
-            
-            <p>Estos son ejemplos de flujos de valor: combinan prácticas y actividades de la cadena de valor de varias maneras, para mejorar los productos y servicios, y aumentar el valor potencial para los consumidores y la organización.</p>
-        </section>
-        <footer class="copyright" style="padding: 3rem;">
+                    <div class="service_main">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="written_text">
+                                        <div class="like_icon"><img src="../images/design-icon.png"></div>
+                                        <h1 class="written_text">Evitar las Prácticas como Silos</h1>
+                                        <p>El SVS de ITIL ha sido diseñado específicamente para permitir la flexibilidad y desalentar el trabajo en silos. El SVS de ITIL especifica cómo los componentes y actividades de la organización trabajan juntos como un sistema para permitir la creación de valor. Estos componentes y actividades se pueden configurar y reconfigurar en múltiples combinaciones de manera flexible a medida que cambian las circunstancias. Sin embargo, esta configuración y reconfiguración requiere la integración y coordinación de actividades, prácticas, equipos, autoridades y responsabilidades, y todas las partes deben ser verdaderamente efectivas.</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="written_text">
+                                      <div class="like_icon"><img src="../images/writing-icon.png"></div>
+                                        <h1 class="written_text">Riesgos de los Silos Organizacionales</h1>
+                                        <p>Cuando se trata de trabajar de manera efectiva y eficiente con una visión compartida, o de volverse más ágil y resiliente, el mayor desafío que enfrenta una organización es la presencia de silos organizacionales. Los silos son resistentes al cambio y evitan el acceso fácil a la información y la experiencia especializada que existe en toda la organización. Esto a su vez reduce la eficiencia y aumenta los costos y riesgos. Los silos dificultan la comunicación o la colaboración entre diferentes grupos. Una organización organizada en silos no puede actuar rápidamente para aprovechar las oportunidades u optimizar el uso de los recursos en toda la organización.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>	  
+        </div>
+    </div>
+   <!--services end -->
+    <!--Contact_section start -->
+    <div class="contact_main">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
-                    <p class="copyright_text">© 2025 UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO.</p>
+                    <h1 class="touch_text">Contact Us</h1>
                 </div>
             </div>
         </div>
-    </footer>
+        <div class="contact_section_2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="map_icon">
+                            <img src="../images/map-icon.png" style="max-width: 100%;padding-left: 30px; ">
+                            <p class="email-text"><a href="#">Gb road 123 londo<br>Uk</a></p>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="map_icon">
+                            <img src="../images/call-icon.png" style="max-width: 100%;padding-left: 30px;">
+                            <p class="email-text"><a href="#">+7123654897</a></p>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="map_icon">
+                            <img src="../images/email-icon.png" style="max-width: 100%; padding-left: 30px;">
+                            <p class="email-text"><a href="#">demo@gmail.com</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!--Contact_section end -->
+    <div class="copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                   <p class="copyright_text">© 2019 All Rights Reserved. <a href="https://html.design">Free Website Templates</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
 
+
+
+
+
+
+
+      <!-- Javascript files-->
      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
       <script src="js/scripts.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
       <script src="js/jquery.min.js"></script>
       <script src="js/popper.min.js"></script>
       <script src="js/bootstrap.bundle.min.js"></script>
-  </body>
+</body>
 </html>
